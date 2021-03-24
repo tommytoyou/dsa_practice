@@ -11,7 +11,7 @@
 ---
 Function 1 Time Complexity:
 
-Function 1 Explanation: 
+Explain your answer:
 ```
 function bobIsFirst(people){
   return people[0] == 'bob'
@@ -20,7 +20,7 @@ function bobIsFirst(people){
 ---
 Function 2 Time Complexity:
 
-Function 2 Explanation: 
+Explain your answer:
 ```
 function wordOccurrence(word, phrase){
   let result = 0
@@ -36,7 +36,7 @@ function wordOccurrence(word, phrase){
 ---
 Function 3 Time Complexity:
 
-Function 3 Explanation: 
+Explain your answer:
 ```
 function sort(list){
   for(let i = 0; i < list.length - 1; i++){
