@@ -56,7 +56,7 @@ function sort(list){
 
 ### Written Questions
 
-- What method would you use to look up a word in a dictionary?
+- What method would you use to look up a word in a dictionary (book, not Python)?
 
 - Imagine you have a closet full of shirts. What can you do to organize your shirts for easy retrieval?
 
