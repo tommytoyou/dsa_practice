@@ -1,14 +1,12 @@
 # Data Structures and Algorithms
 
+1. Fork and clone this repo
+2. Fill out the Big O and Written questions in this read me.
+3. Complete the HackerRank challenges on hackerrank.com
+4. You have 1 hour and 20 minutes
 
 
 ### Big O Analysis
-
-For each of the following functions:
-- Specify the time complexity.
-- Briefly explain your answer.
-
-
 
 ---
 Function 1 Time Complexity:
