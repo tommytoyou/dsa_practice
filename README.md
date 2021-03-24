@@ -17,6 +17,15 @@ function bobIsFirst(people){
   return people[0] == 'bob'
 }
 ```
+
+# This is constant time complexity as the time required to run is the same in each instance.
+Three seperate operations
+1. Looking up bobIsFirst 0(1)
+2. Assigning bobIsFirst  to the variable [0] 0(1)
+3. returning that variable 0(1)
+# 0(1+1+1) = 0(3) or 0(3x1) simplified 0(1)
+
+Big O notation is the most common metric for calculating time complexity. It describes the execution time of a task in relation to the number of steps required to complete it. ... A task can be handled using one of many algorithms, each of varying complexity and scalability over time.
 ---
 Function 2 Time Complexity:
 
@@ -33,6 +42,9 @@ function wordOccurrence(word, phrase){
   return result
 }
 ```
+# 0(n)
+# This is 'linear time complexity' as it is unclear whether this is running once or a quadrillion times
+
 ---
 Function 3 Time Complexity:
 
@@ -51,6 +63,8 @@ function sort(list){
   return list;
 }
 ```
+#  0(n²)
+# this is 'quadratic time complexity' as the algorithm will have to run a linear time operation for each value
 
 ---
 
@@ -58,9 +72,16 @@ function sort(list){
 
 - What method would you use to look up a word in a dictionary (book, not Python)?
 
+# linear
+
 - Imagine you have a closet full of shirts. What can you do to organize your shirts for easy retrieval?
 
+# organize the by color, style(checked, striped), and sleeve length
+
+
 - Describe advantages and disadvantages of the most popular sorting algorithms.
+
+# Ireally don't know enough on the subject to give a substantive answer on comparisons and contrasts. I think I may have missed that day with a bad case of brew inflicted postgres monodb-itis.
 
 ---
 
